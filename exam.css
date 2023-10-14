@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 21px;
+}
+
+.headpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.demo {
+    width: 122px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 2px solid #9610FF;
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    color: white;
+}
+
+.road {
+    width: 122px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 2px solid #456AE7;
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    color: white;
+}
+
+.rus {
+    width: 100px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+}
+
+.heada {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 463px;
+    flex-shrink: 0;
+    /* fill: linear-gradient(215deg, #0D0939 31.67%, #080435 45.37%, #130F3D 81.82%, #0D0939 142.23%); */
+    background-color: #0D0939;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    gap: 23px;
+}
+
+.headp {
+    color: white;
+    padding-top: 70px;
+
+}
+
+.plakat {
+    display: flex;
+    width: 1138px;
+    height: 294px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background: #18005a;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+
+.bitimg {
+    height: 294px;
+}
+
+.plakpi {
+    text-align: center;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 105px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52.5px;
+    /* 41.016% */
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 7%;
+    
+}
+
+.plakpi1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52.5px;
+    /* 54.688% */
+    text-transform: uppercase;
+    padding-right: 200px;
+}
+
+.images {
+    display: flex;
+    padding-top: 200px;
+    padding-right: 10px;
+    gap: 15px;
+
+}
+
+.bigimage {
+    width: 755px;
+    height: 407px;
+    flex-shrink: 0;
+    border-radius: 7px;
+}
+
+.smallimage {
+    width: 367px;
+    height: 196px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.javap {
+    width: 418px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.content {
+    position: absolute;
+    display: none;
+    left: 15px;
+    top: 285px;
+    color: #FFF;
+
+}
+
+
+.big {
+    position: relative;
+}
+.javap1 {
+    width: 418px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.content1 {
+    position: absolute;
+    display: none;
+    left: 15px;
+    top: 900px;
+    color: #FFF;
+
+}
+.javap2 {
+    width: 418px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.content2 {
+    position: absolute;
+    display: none;
+    left: 15px;
+    top: 285px;
+    color: #FFF;
+
+}
+
+.position-text{
+    position: absolute;
+    top: 820px;
+    width: 367px;
+    color: #FFF;
+    margin: 0 auto;
+
+}
+
+.position-text1{
+    position: absolute;
+    top: 1020px;
+    width: 367px;
+    color: #FFF;
+    margin: 0 auto;
+
+}
+.pxmanga{
+    padding-top: 10px;
+    font-family: Abhaya Libre;
+}
+.cardimg{
+    width: 367px;
+height: 196px;
+flex-shrink: 0;
+}
+.card-p{
+    width: 329px;
+height: 72px;
+flex-shrink: 0;
+}
+
+.tag{
+    width: 61px;
+height: 24.642px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #5B41F5;
+background: #FFF;
+color: #5B41F5;
+text-align: center;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 99.4%; /* 11.928px */
+margin-bottom: 35px;
+}
+.card-content{
+    margin-top: 90px;
+    display: flex;
+    gap: 10px;
+}
+body{
+    background: #EBEBEB;
+}
+.category{
+    width: 367px;
+height: 394px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+padding: 20px;
+}
+.category h4{
+    color: #000;
+font-family: Abril Fatface;
+font-size: 14px;
+font-style: normal;
+font-weight: 1000;
+line-height: 232.4%; /* 37.184px */
+opacity: 0.4;
+}
+.category h1{
+    color: #000;
+font-family: Abhaya Libre SemiBold;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 99.4%; /* 24.85px */
+}
+.tags{
+    width: 367px;
+height: 207px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+padding: 20px;
+padding-bottom: 230px;
+margin-bottom: 25px;
+}
+.line1{
+    display: flex;
+    gap: 7px;
+}
+.line2{
+    display: flex;
+    gap: 7px;
+}
+.line3{
+    display: flex;
+    gap: 7px;
+}
+.heyt{
+    width: 125px;
+height: 69px;
+flex-shrink: 0;
+border-radius: 7px;
+}
+.topomadim h4{
+    color: #000;
+font-family: Abhaya Libre ExtraBold;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 99.4%; /* 17.892px */
+}
+.topomadim h5{
+    color: #000;
+font-family: Abril Fatface;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 123.4%; /* 19.744px */
+}
+.mini1{
+    margin-bottom: 51px;
+}
+.mini2{
+    margin-bottom: 51px;
+}
+.news{
+    width: 367px;
+height: 433px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+}
+#ikkinchi{
+    padding-left: 90px;
+}
+.news h1{
+    color: #000;
+font-family: Abhaya Libre SemiBold;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 99.4%; /* 24.85px */
+margin-bottom: 33px;
+}
+.smbt{
+    width: 33px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #F9F9F9;
+border: none;
+}
+#bit{
+    border-radius: 3px;
+background: #5B41F5;
+border: none;
+}
+.buts{
+    display: flex;gap: 10px;
+    padding-left: 395px;
+    margin-bottom: 72px
+}
+footer{
+    width: 100%;
+height: 300.5px;
+flex-shrink: 0;
+background-color: #0D0939;
+}
+.class{
+    width: 258px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 60px;
+border: 2px solid #456AE7;
+box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+color: white;
+background-color: transparent;
+}
+.footer-content{
+    padding-top: 100px;
+}
+.reserved{
+    width: 100%;
+height: 59px;
+flex-shrink: 0;
+background: #06001D;
+bottom: 100px;
+}
+.reserved h3{
+    color: #FFF;
+font-family: Abril Fatface;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 262.5% */
+
+}
